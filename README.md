@@ -1,17 +1,18 @@
 # Streamlit-based Recommender System
-#### EXPLORE Data Science Academy Unsupervised Predict
+#### EXPLORE AI Academy Unsupervised Project
 
-## 1) Overview
 
 ![Movie_Recommendations](resources/imgs/Image_header.png)
 
 This repository forms the basis of **Unsupervised Project** in the Data Science course at Explore AI Academy. 
 
-#### 1.1) What is a Recommender System?
+#### What is a Recommender System?
 
 [![What is an API](resources/imgs/What_is_a_recommender_system.png)](https://youtu.be/Eeg1DEeWUjA)
 
 In today’s technology driven world, recommender systems are socially and economically critical to ensure that individuals can make optimised choices surrounding the content they engage with on a daily basis. One application where this is especially true is movie recommendations; where intelligent algorithms can help viewers find great titles from tens of thousands of options.
+
+#### Objective
 
 The objective of this project was to construct a recommendation algorithm based on content or collaborative filtering, capable of accurately predicting how a user will rate a movie they have not yet viewed, based on their historical preferences.
 
