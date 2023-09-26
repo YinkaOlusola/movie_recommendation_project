@@ -138,3 +138,5 @@ dmypy.json
 cython_debug/
 
 eda_nomodel.ipynb
+resources/edsa-movie-recommendation-2022/
+resources/data/
