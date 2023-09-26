@@ -1,12 +1,18 @@
 # Streamlit-based Recommender System
-#### EXPLORE AI Academy Unsupervised Project
+### EXPLORE AI Academy Unsupervised Project
 
 
 ![Movie_Recommendations](resources/imgs/Image_header.png)
 
+<br>
+
 This repository forms the basis of **Unsupervised Machine Learning Project** in the Data Science course at Explore AI Academy. 
 
 #### What is a Recommender System?
+
+<br>
+
+The video below gave an overview of Recommender System
 
 [![What is an API](resources/imgs/What_is_a_recommender_system.png)](https://youtu.be/Eeg1DEeWUjA)
 
