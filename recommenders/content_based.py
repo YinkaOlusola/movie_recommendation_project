@@ -39,6 +39,9 @@ movies = pd.read_csv('resources/data/movies.csv', sep = ',')
 ratings = pd.read_csv('resources/data/ratings.csv')
 movies.dropna(inplace=True)
 
+# ================================================================================================================================
+# ================================================================================================================================
+
 def data_preprocessing(subset_size):
     """Prepare data for use within Content filtering algorithm.
 
@@ -59,6 +62,9 @@ def data_preprocessing(subset_size):
     movies_subset = movies[:subset_size]
     return movies_subset
 
+# ================================================================================================================================
+# ================================================================================================================================
+
 # !! DO NOT CHANGE THIS FUNCTION SIGNATURE !!
 # You are, however, encouraged to change its content.  
 def content_model(movie_list,top_n=10):
@@ -67,15 +73,15 @@ def content_model(movie_list,top_n=10):
 
     Parameters
     ----------
-    movie_list : list (str)
-        Favorite movies chosen by the app user.
-    top_n : type
-        Number of top recommendations to return to the user.
+        movie_list : list (str)
+            Favorite movies chosen by the app user.
+        top_n : type
+            Number of top recommendations to return to the user.
 
-    Returns
+        Returns
     -------
-    list (str)
-        Titles of the top-n movie recommendations to the user.
+        list (str)
+             Titles of the top-n movie recommendations to the user.
 
     """
     # Initializing the empty list of recommended movies
@@ -109,4 +115,5 @@ def content_model(movie_list,top_n=10):
     top_indexes = np.setdiff1d(top_50_indexes,[idx_1,idx_2,idx_3])
     for i in top_indexes[:top_n]:
         recommended_movies.append(list(movies['title'])[i])
+
     return recommended_movies

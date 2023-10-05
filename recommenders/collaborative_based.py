@@ -70,6 +70,9 @@ def prediction_item(item_id):
         predictions.append(model.predict(iid=item_id,uid=ui, verbose = False))
     return predictions
 
+# ================================================================================================================================
+# ================================================================================================================================
+
 def pred_movies(movie_list):
     """Maps the given favourite movies selected within the app to corresponding
     users within the MovieLens dataset.
@@ -97,6 +100,10 @@ def pred_movies(movie_list):
             id_store.append(pred.uid)
     # Return a list of user id's
     return id_store
+
+
+# ================================================================================================================================
+# ================================================================================================================================
 
 # !! DO NOT CHANGE THIS FUNCTION SIGNATURE !!
 # You are, however, encouraged to change its content.  
@@ -146,3 +153,6 @@ def collab_model(movie_list,top_n=10):
     for i in top_indexes[:top_n]:
         recommended_movies.append(list(movies_df['title'])[i])
     return recommended_movies
+
+# ================================================================================================================================
+# ================================================================================================================================
