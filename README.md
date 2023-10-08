@@ -12,9 +12,6 @@ This repository forms the basis of **Unsupervised Machine Learning Project** in 
 
 <br>
 
-The video below gave an overview of Recommender System
-
-[![What is an API](resources/imgs/What_is_a_recommender_system.png)](https://youtu.be/Eeg1DEeWUjA)
 
 In today’s technology driven world, recommender systems are socially and economically critical to ensure that individuals make optimised choices surrounding the content they engage with on a daily basis. One application where this is especially true is movie recommendations; where intelligent algorithms can help viewers find great titles from tens of thousands of options.
 
